@@ -39,6 +39,10 @@ input [type='password']:disabled
     background-color: var(--primary) !important;
 }
 
+.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+
 .box{
 background-color: white;
 box-shadow: 0px 0px 11px 6px rgba(0,0,0,0.08);
