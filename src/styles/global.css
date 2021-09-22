@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 :root{
-    --primary: #06D6A0;
-    --secondary: #FA643D;
+    --primary: 6,214,160;
+    --secondary: 250,100,61;
 }
 
 
@@ -36,12 +36,22 @@ input [type='password']:disabled
 
 
 .bg-primary{
-    background-color: var(--primary) !important;
+    background-color: rbg(var(--primary)) !important;
 }
 
 .bg-secondary{
-    background-color: var(--secondary) !important;
+    background-color: rgb (var(--secondary)) !important;
 }
+
+.badge{
+    font-weight: lighter;
+}
+
+.badge.badge-primary{
+    background: rgba(var(--primary), 0.1); 
+    color: rgb(var(--secondary));  
+}
+
 
 .box{
 background-color: white;
@@ -53,15 +63,15 @@ padding: 50px
 }
 
 bg-secondary{
-    background-color: var(--secondary) !important;
+    background-color: rgb(var(--secondary)) !important;
 }
     btn-secondary,
     btn-secondary: focus,
     btn-secondary: active,
     btn-secondary: disabled,
     btn-secondary:hover{
-        background-color: var(--secondary) !important;
-        border-color: var(--secondary)
+        background-color: rgb(var(--secondary)) !important;
+        border-color: rgb(var(--secondary))
 
     }
 
