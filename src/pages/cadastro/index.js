@@ -6,7 +6,7 @@ import Header from '../../components/header'
 const Cadastro =() => {
     return (
     <div className="container-fluid h-100 bg-primary">
-        <Header versaobranca />
+        <Header versaobranca semCarrinho />
 <div className="row">
 <div className="col-6 text-right my-auto"> <img src={fig} alt="Banana" className="img-fluid"/></div> 
      
